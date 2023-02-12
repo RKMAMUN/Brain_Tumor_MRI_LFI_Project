@@ -5,3 +5,15 @@
 
 <p align="center"><img width="460" height="300" src="brain.jpg"></p>
 
+In this project, segmentation masks for pictures of brain tumors are made using the U-Net Architecture and ResUnet
+
+### Overview
+- - - -
+* Dataset
+* Tools/IDE used
+* Data visualization
+* Methodology
+* Evaluation and Result
+
+
+
