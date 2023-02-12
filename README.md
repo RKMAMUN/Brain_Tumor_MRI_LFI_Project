@@ -11,6 +11,7 @@ In this project, segmentation masks for pictures of brain tumors are made using 
 - - - -
 * Dataset
 * Tools/IDE used
+* Simple workflow
 * Data visualization
 * Methodology
 * Evaluation and Result
@@ -23,4 +24,23 @@ In this project, segmentation masks for pictures of brain tumors are made using 
   <img src="images/original.jpg" width="370" height="250" />
   <img src="images/mask.jpg" width="370" height="250" /> 
 </p>
+
+
+### Tools/IDE used
+<p align="justify">The project is developed in python using Jupyter notebook online and Kaggle GPU. we have used Kaggle GPU notebook online to show the flow of the application as it provides a block execution interface and each stage output can be shown effectively.</p>
+
+Machine Learning and Python Packages:
+NumPy,
+pandas,
+Matplotlib,
+Seaborn,
+scikit-learn,
+cv2,
+tensorflow
+
+ ### Simple workflow
+<p align="center"><img src="images/workflow.JPG"></p>
+
+
+### Data visualization
 
