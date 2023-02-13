@@ -22,6 +22,8 @@ In this project, segmentation masks for pictures of brain tumors are made using 
 <p align="justify">The dataset consists of MRI scans of the brain, along with manual segmentations of the tumors created by experienced radiologists. The segmentations serve as ground truth annotations and are used to evaluate the performance of algorithms designed to segment LGGs in MRI scans. The dataset can be used to train and test machine learning models, such as Convolutional Neural Networks (CNNs), for the task of brain tumor segmentation.</p>
 <p align="justify">The LGG Segmentation Dataset is a valuable resource for researchers and practitioners in the field of medical imaging, and its use can lead to the development of more accurate and efficient algorithms for the detection and diagnosis of brain tumors. </p>
 
+We have total 3929 image with mask. 
+
 <p float="left">
   <img src="images/original.jpg" width="370" height="250" />
   <img src="images/mask.jpg" width="370" height="250" /> 
@@ -64,6 +66,17 @@ The main difference between U-Net and ResU-Net is the addition of residual conne
 <p align="justify">ResU-Net extends the U-Net architecture by adding residual connections. Residual connections are connections that bypass one or more layers and directly add the input to the output of the layer. These connections help to mitigate the vanishing gradient problem, which can occur in deep networks and make it difficult for the network to learn from the input data. </p>
 
 ### Evaluation and Result
+
+First Method: </br>
+Training Image size: 2828 </br>
+Test Image Size: 708 </br>
+Validation Image Size: 393 </br>
+Epochs: 25 </br>
+Batch Size: 32</br>
+
+<p align="left"><img src="images/Loss_Plot.png"></p>
+
+<p align="left"><img src="images/Accuracy_plot.png"></p>
 
 <p align="center"><img src="images/Predicted_tumor.JPG" ></p>
 <p align="justify">The predicted result in a brain tumor MRI detection task using U-Net or ResU-Net is a segmentation of the brain MRI scan, where each pixel is assigned to a class, such as "tumor" or "healthy tissue".</p>
