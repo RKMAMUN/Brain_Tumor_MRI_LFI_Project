@@ -19,7 +19,7 @@ In this project, segmentation masks for pictures of brain tumors are made using 
 * References
 
 ### Dataset Used
-<p align="justify">The dataset consists of MRI scans of the brain, along with manual segmentations of the tumors created by experienced radiologists. The segmentations serve as ground truth annotations and are used to evaluate the performance of algorithms designed to segment LGGs in MRI scans. The dataset can be used to train and test machine learning models, such as Convolutional Neural Networks (CNNs), for the task of brain tumor segmentation.</p></br>
+<p align="justify">The dataset consists of MRI scans of the brain, along with manual segmentations of the tumors created by experienced radiologists. The segmentations serve as ground truth annotations and are used to evaluate the performance of algorithms designed to segment LGGs in MRI scans. The dataset can be used to train and test machine learning models, such as Convolutional Neural Networks (CNNs), for the task of brain tumor segmentation.</p>
 <p align="justify">The LGG Segmentation Dataset is a valuable resource for researchers and practitioners in the field of medical imaging, and its use can lead to the development of more accurate and efficient algorithms for the detection and diagnosis of brain tumors. </p>
 
 <p float="left">
@@ -49,7 +49,7 @@ tensorflow
 Mask Count Plot:
 <p align="center"><img src="images/plot.JPG" width="400" height="290"></p>
 
-
+### Methodology
 
 
 ### Challenges
