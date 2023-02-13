@@ -65,7 +65,7 @@ The main difference between U-Net and ResU-Net is the addition of residual conne
 
 ### Evaluation and Result
 
-
+<p align="center"><img src="images/Predicted_tumor.JPG" ></p>
 <p align="justify">The predicted result in a brain tumor MRI detection task using U-Net or ResU-Net is a segmentation of the brain MRI scan, where each pixel is assigned to a class, such as "tumor" or "healthy tissue".</p>
 
 <p align="justify">The quality of the predicted result is typically evaluated using metrics such as Dice Similarity Coefficient (DSC) or Intersection over Union (IoU). These metrics measure the overlap between the predicted segmentation and the ground truth segmentation. A high DSC or IoU indicates that the predicted segmentation is highly similar to the ground truth segmentation, while a low DSC or IoU indicates that the predicted segmentation is significantly different from the ground truth. </p>
