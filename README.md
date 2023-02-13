@@ -93,6 +93,21 @@ Test Size: 172 </br>
 
 <p align="left"><img src="images/2nd_loss_plot.png"></p>
 
+<p align="left"><img src="images/second_accurary_plot.png"></p>
+
+Evaluation Metrics: </br>
+Test loss: -0.8891821503639221  </br>
+Test IOU: 0.9940625429153442 </br>
+Test Dice Coefficient: 0.8076551556587219 </br>
+
+Our test Dice Coefficient is increased than our first approach. </br>
+
+Sample Prediction: </br>
+
+<p align="left"><img src="images/Evaluation_Metrics_2nd.png"></p>
+
+
+### Final Prediction:
 <p align="center"><img src="images/Predicted_tumor.JPG" ></p>
 <p align="justify">The predicted result in a brain tumor MRI detection task using U-Net or ResU-Net is a segmentation of the brain MRI scan, where each pixel is assigned to a class, such as "tumor" or "healthy tissue".</p>
 
