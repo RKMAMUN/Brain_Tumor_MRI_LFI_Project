@@ -26,6 +26,7 @@ In this project, segmentation masks for pictures of brain tumors are made using 
   <img src="images/original.jpg" width="370" height="250" />
   <img src="images/mask.jpg" width="370" height="250" /> 
 </p>
+Here, Original Image and Masked Image
 
 
 ### Tools/IDE used
